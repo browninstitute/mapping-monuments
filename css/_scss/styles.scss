@@ -104,15 +104,16 @@ nav {
     -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
     h2 { margin-bottom: 20px; }
+    h3 {
+      font-family: 'Assistant', sans-serif;
+      font-size: 18pt;
+      line-height: 22pt;
+      color: darkgray;
+    }
     p {
       font-size: 16pt;
       line-height: 20pt;
       margin-bottom: 15px;
-      &.subhead {
-        font-size: 18pt;
-        line-height: 22pt;
-        color: darkgray;
-      }
     }
     img {
       width: 100%;
