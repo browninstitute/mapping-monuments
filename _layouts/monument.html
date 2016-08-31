@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  {% include js.html %}
+  <body>
+    {% include navbar.html %}
+
+    <section class="full-size-map">
+        <div id="map"></div>
+        <div class="map-text">
+          {% if page.prev-mon %}
+            <a class="btn btn-default" role="button" href="{{ page.prev-mon }}"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+          {% else %}
+            <a class="btn btn-default disabled" role="button" href=""><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+          {% endif %}
+
+          {% if page.next-mon %}
+            <a class="btn btn-default" role="button" href="{{ page.next-mon }}"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+          {% else %}
+            <a class="btn btn-default disabled" role="button" href=""><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+          {% endif %}
+
+            <h2>{{ page.title }}</h2>
+
+            <p class="subhead">{{ page.subhead }}</p>
+
+            <p>{{ content }}</p>
+
+            <div class="credits">{{ page.credits }}</div>
+
+        </div>
+        <img class="key" src="/img/keys/{{ page.short-name }}-key.png" />
+    </section>
+
+    <script>
+      $(document).ready(function () {
+        geocoder("{{ page.location }}");
+        $(".leaflet-marker-icon").on("click", function(){
+          console.log("icon clicked!");
+        });
+      });
+    </script>
+
+  </body>
+
+</html>

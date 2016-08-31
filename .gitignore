@@ -1,0 +1,8 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+s3_website.yml
+Gemfile.lock
+*.afphoto
+*.mp4

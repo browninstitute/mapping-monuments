@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  {% include js.html %}
+  <body class="page">
+    {% include navbar.html %}
+
+    <div class="container text-container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+          <h1>{{ page.title }}</h1>
+          <p>{{ content }}</p>
+
+
+        </div>
+      </div>
+
+    </div><!-- End container -->
+    
+    {% include footer.html %}
+
+  </body>
+
+</html>

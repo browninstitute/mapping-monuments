@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  {% include js.html %}
+  <body>
+    {% include navbar.html %}
+
+    <section class="index-container full-size-map">
+      <video class="index-video" src="http://mapping-monuments.s3-website-us-west-1.amazonaws.com/img/video/kozara.mp4" autoplay>
+        Your browser does not support the video tag.
+      </video>
+      <div class="map-text">
+        <a class="btn btn-default disabled" role="button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+        <a class="btn btn-default pulse" role="button" href="{{ page.next-mon }}"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+          <h2>{{ site.title }}</h2>
+
+          <p class="subhead">{{ page.subhead }}</p>
+
+          <p>{{ content }}</p>
+
+          <div class="credits">{{ page.copyright }}</div>
+      </div>
+    </section>
+
+  </body>
+
+</html>
