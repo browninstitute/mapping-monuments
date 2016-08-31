@@ -2,6 +2,8 @@
 
 Site created to house the work of Jorgan Samso and Mark Thomann for their 2015-2016 Magic Grant.
 
+If your (Mac) computer is not set up for development, refer to the first file in [this gist](https://gist.github.com/amccartney/87fb7e148969431b6d9cb2d51ed5d510#file-1-housekeeping-md) to get your computer ready to handle Jekyll. Otherwise, continue below.
+
 To run site locally, you must have [bundler](http://bundler.io/). If not, run:
 
 `$ gem install bundler`
