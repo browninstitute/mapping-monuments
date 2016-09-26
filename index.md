@@ -1,16 +1,15 @@
 ---
 title: Mapping Monuments & Memory
 copyright: © Put copyright here
-
 layout: default
-
 permalink: /
-
 next-mon: /jasenovac/
+published: true
 ---
 
-### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+### Mapping Monuments & Memory Across the Former Yugoslavia pairs journalism with landscape architecture to tell the story of the "Spomeniks", futuristic socialist modernist WWII-monuments and memorial complexes scattered across the six former republics of Yugoslavia.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Spomeniks are found throughout villages and remote landscapes. Secular totems that were meant to encapsulate the idea and unity of the new socialist and multicultural federation of Yugoslavia. The abstract visual language does not cater to one ethnic group and to promote an overarching Yugoslav identity after the atrocities of World War II.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The memorial complexes were built in the 1960’s and 1970’s to commemorate the fight against fascism in Yugoslavia, and are important cultural landmarks from that era. They are situated on historic sites – where famous battles took place, on former concentration camp sites and other sites of atrocious killings during WWII. 
+
